@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Doki Doki McWinery Restaurant.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Doki Doki McWinery Restaurant" startnode="1" creator="Twine" creator-version="2.3.13" ifid="187FC31C-0E83-4503-98C3-EC821ADC9654" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="726.5,102" size="100,100">You&#39;ve just joined a discord server called Wangsheng Funeral Parlor. Lucky for you they are having a 50k event! How exciting! You need to choose a team. You choose:
+<tw-storydata name="Doki Doki McWinery Restaurant" startnode="1" creator="Twine" creator-version="2.3.14" ifid="187FC31C-0E83-4503-98C3-EC821ADC9654" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="697,100" size="100,100">You&#39;ve just joined a discord server called Wangsheng Funeral Parlor. Lucky for you they are having a 50k event! How exciting! You need to choose a team. You choose:
 (if:visits &gt;= 2)[(text-colour:red)[Haha, join a real team]]
 
 [[Dawn Winery-&gt;JoinDawnWinery]]
@@ -17,17 +17,17 @@
 [[Wanmin Restaurant-&gt;Start]]
 [[Adventurers Guild-&gt;Start]]](if:visits &gt;= 2)[[[McWinery-&gt;JoinDawnWinery]]
 [[McDawnalds-&gt;JoinDawnWinery]]
-[[mcWINNERy-&gt;JoinDawnWinery]]]</tw-passagedata><tw-passagedata pid="2" name="JoinDawnWinery" tags="" position="846.5,102" size="100,100">There&#39;s basically no other option, of course you join Dawn Winery! You enter the #dawn-winery channel.
+[[mcWINNERy-&gt;JoinDawnWinery]]]</tw-passagedata><tw-passagedata pid="2" name="JoinDawnWinery" tags="" position="846,102" size="100,100">There&#39;s basically no other option, of course you join Dawn Winery! You enter the #dawn-winery channel.
 
 Chaos is the only word that could come close to describing the sight in front of you. In one second people are keyboard mashing &quot;WEOFIEWFJ ILY WE&#39;RE SHAKING HANDS&quot;. In the next everyone gangs up to bonk McAlf while a picture of Yanfei saying &quot;KINKS&quot; appears. 
 
 You are hardly sure how to even respond to such a chaotic scene.
 
 [[Say hi-&gt;Hi]]
-[[Just lurk-&gt;LurkEnd]]</tw-passagedata><tw-passagedata pid="3" name="Hi" tags="" position="846.5,253" size="100,100">&quot;Hello I&#39;m new&quot; you type with a small amount of trepidation.
+[[Just lurk-&gt;LurkEnd]]</tw-passagedata><tw-passagedata pid="3" name="Hi" tags="" position="846,253" size="100,100">&quot;Hello I&#39;m new&quot; you type with a small amount of trepidation.
 
 
-&#39;&#39;McDiluc&#39;&#39;: Welcome to McWinery! Please don&#39;t mind the crazyness going on
+&#39;&#39;McPoro&#39;&#39;: Welcome to McWinery! Please don&#39;t mind the crazyness going on
 &#39;&#39;McYuni&#39;&#39;: KINKS :HuTea:
 &#39;&#39;McSady&#39;&#39;: !av Reader#1234
 &#39;&#39;McFish&#39;&#39;: BLURGH BLUB
@@ -36,14 +36,14 @@ You are hardly sure how to even respond to such a chaotic scene.
 &#39;&#39;McSady&#39;&#39;: Have a hat (posts your profile picture with a hat)
 &#39;&#39;McEugeneration&#39;&#39;: WEAR THE HAT DO IT
 &#39;&#39;McTeletubby&#39;&#39;: :HuPopcorn:
-&#39;&#39;McDiluc&#39;&#39;: You don&#39;t have to wear it but you can choose to do so if you like!
+&#39;&#39;McPoro&#39;&#39;: You don&#39;t have to wear it but you can choose to do so if you like!
 
 [[Wear the hat-&gt;HatWear]]
-[[Don&#39;t wear it-&gt;HatNoEnd]]</tw-passagedata><tw-passagedata pid="4" name="LurkEnd" tags="" position="965.5,252" size="100,100">You lurk and watch people having fun chatting and playing games. You start to understand some of the McMemes and react :HuKek: sometimes.
+[[Don&#39;t wear it-&gt;HatNoEnd]]</tw-passagedata><tw-passagedata pid="4" name="LurkEnd" tags="" position="965,252" size="100,100">You lurk and watch people having fun chatting and playing games. You start to understand some of the McMemes and react :HuKek: sometimes.
 
 You never end up working up the courage to actually speak, and the 50k event ends without anyone hearing from you.
 
-BAD END</tw-passagedata><tw-passagedata pid="5" name="HatWear" tags="" position="764.5,395" size="100,100">(if:visits is 1)[Everyone cheers as you don the pfp with the McDonalds hat and set your nickname to have a Mc prefix.
+BAD END</tw-passagedata><tw-passagedata pid="5" name="HatWear" tags="" position="764,395" size="100,100">(if:visits is 1)[Everyone cheers as you don the pfp with the McDonalds hat and set your nickname to have a Mc prefix.
 
 McEveryone: YAAAAAAAY ONE OF USSS
 [(set: $Day1JoinedVC to false)]
@@ -53,11 +53,11 @@ The jovialities eventually subside. ]Now you are left to decide how to continue 
 [[Take off the hat-&gt;HatOffEnd]]
 [[Post a dancing crab gif-&gt;CrabRaveEnd]]
 (if:$Day1JoinedVC is false)[[[Join the VC-&gt;VCJoin]]
-][[Just chill for a bit-&gt;Chill]]</tw-passagedata><tw-passagedata pid="6" name="HatNoEnd" tags="" position="1010.5,411" size="100,100">You spend the rest of your days as a boring non-hatted member of McWinery
+][[Just chill for a bit-&gt;Chill]]</tw-passagedata><tw-passagedata pid="6" name="HatNoEnd" tags="" position="1010,411" size="100,100">You spend the rest of your days as a boring non-hatted member of McWinery
 
 McJamil: UR STILL VALID
 
-BAD END</tw-passagedata><tw-passagedata pid="7" name="HatOffEnd" tags="" position="882.5,543" size="100,100">The cheering abruptly stops, and the chat falls silent for a few seconds.
+BAD END</tw-passagedata><tw-passagedata pid="7" name="HatOffEnd" tags="" position="882,543" size="100,100">The cheering abruptly stops, and the chat falls silent for a few seconds.
 
 McPoro: You..you took off the hat :HuSadge:
 McJamil: U ARE STILL VALID BUT YOU MADE PORO CRY
@@ -66,7 +66,7 @@ McYuni: I will chop off your arms
 
 A few moments later you are ejected unceremoniously from the channel. You are banned from Dawn Winery and will forever live with the fact that you weren&#39;t part of the best 50k event team.
 
-BAD END</tw-passagedata><tw-passagedata pid="8" name="YuniLewd" tags="" position="1252.5,1156" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="9" name="Drawing" tags="" position="1365.5,1294" size="100,100">WIP</tw-passagedata><tw-passagedata pid="10" name="VCJoin" tags="" position="198.5,535" size="100,100">You join VC and immediately are blasted by loud anime music.
+BAD END</tw-passagedata><tw-passagedata pid="8" name="YuniLewd" tags="" position="1433,921" size="100,100">Uhhh</tw-passagedata><tw-passagedata pid="9" name="Drawing" tags="" position="1321,915" size="100,100">WIP</tw-passagedata><tw-passagedata pid="10" name="VCJoin" tags="" position="198,535" size="100,100">You join VC and immediately are blasted by loud anime music.
 
 McAlf: Oh someone&#39;s here?
 You: Yeah I&#39;m pretty new here
@@ -79,7 +79,7 @@ You stare at McAlf and his pfp stares back at you. The awkward silence grows to 
 [[Stay silent-&gt;StaySilent]]
 [[Seduce Alf-&gt;SeduceAlf]]
 [[Start singing-&gt;Karaoke]]
-(set: $Day1JoinedVC to true)</tw-passagedata><tw-passagedata pid="11" name="CrabRaveEnd" tags="" position="1008.5,547" size="100,100">You post the crab dancing gif.
+(set: $Day1JoinedVC to true)</tw-passagedata><tw-passagedata pid="11" name="CrabRaveEnd" tags="" position="1008,547" size="100,100">You post the crab dancing gif.
 
 Immediately a mod swoops down and yells excitedly
 Erecchi: CRAB RAVE??
@@ -103,16 +103,28 @@ Otaku: Crab dancing gif
 
 The crab rave seems to never end. You are stuck dancing to crab rave forever.
 
-CRAB END</tw-passagedata><tw-passagedata pid="12" name="Poro x Maple" tags="" position="1320.5,1030" size="100,100"></tw-passagedata><tw-passagedata pid="13" name="Potaku Slave Route" tags="" position="1437.5,1030" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="14" name="Karaoke Serenade" tags="" position="1546.5,1030" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="15" name="Gamba" tags="" position="1658.5,1030" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="16" name="Biki gives away your soul" tags="" position="1777.5,1030" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="17" name="Chill" tags="" position="762.5,544" size="100,100">You just chill in chat for a bit. Eventually people start leaving and things slow down.
+CRAB END</tw-passagedata><tw-passagedata pid="12" name="Poro x Maple" tags="" position="1320,1030" size="100,100"></tw-passagedata><tw-passagedata pid="13" name="Potaku Slave Route" tags="" position="1437,1030" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="14" name="Karaoke Serenade" tags="" position="1546,1030" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="15" name="Gamba" tags="" position="1658,1030" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="16" name="Biki gives away your soul" tags="" position="250,1735" size="100,100">&#39;&#39;You&#39;&#39;: Why did you reroll you idiot baka Biki?!
+
+There&#39;s silence in the channel, but after a few seconds, Biki starts retyping.
+
+&#39;&#39;GiveawayBot&#39;&#39;: [Mc]&#39;s entire soul for calling me an idiot! React to enter the giveaway! Hosted by: Hibiki
+
+You watch in despair as the reactions start piling up, reaching 15 in no time.
+
+&#39;&#39;GiveawayBot&#39;&#39;: Congratulations McJamil! You won the **[Mc]&#39;s entire soul for calling me an idiot**
+
+Now bound to Jamil for the rest of your life, you hope that one day you will be set free.
+
+BAD END</tw-passagedata><tw-passagedata pid="17" name="Chill" tags="" position="762,544" size="100,100">You just chill in chat for a bit. Eventually people start leaving and things slow down.
 
 McSomeone: Dead chat kek
 
 Looks like nothing else is really happening today.
 
-[[Leave WFP for the day-&gt;Day2]]</tw-passagedata><tw-passagedata pid="18" name="StaySilent" tags="" position="386.5,539" size="100,100">You just chill in VC silently for a few hours while listening to Groovy. Your prankster level increases to 1!
+[[Leave WFP for the day-&gt;Day2]]</tw-passagedata><tw-passagedata pid="18" name="StaySilent" tags="" position="386,539" size="100,100">You just chill in VC silently for a few hours while listening to Groovy. Your prankster level increases to 1!
 (set: $pranksterlevel to 1)
 
-[[Leave VC-&gt;HatWear]]</tw-passagedata><tw-passagedata pid="19" name="SeduceAlf" tags="" position="211.5,688" size="100,100">You: Alf, I need to tell you something.
+[[Leave VC-&gt;HatWear]]</tw-passagedata><tw-passagedata pid="19" name="SeduceAlf" tags="" position="211,688" size="100,100">You: Alf, I need to tell you something.
 Alf: Hmm?
 You: I..I want to stay in VC with you forever
 
@@ -129,14 +141,14 @@ You look up shyly at Alf&#39;s pfp&#39;s glimmering sideways looking eyes. You n
 
 Many hours pass and it&#39;s well past your bedtime.
 
-[[Leave VC-&gt;HatWear]]</tw-passagedata><tw-passagedata pid="21" name="Alf2" tags="" position="1080.5,1474" size="100,100">&quot;I&#39;ve been seeing you in VC a lot today, glad to see you again&quot;
+[[Leave VC-&gt;HatWear]]</tw-passagedata><tw-passagedata pid="21" name="Alf2" tags="" position="1202,919" size="100,100">&quot;I&#39;ve been seeing you in VC a lot today, glad to see you again&quot;
 &quot;Hey! it&#39;s you again! finally someone to keep me company&quot;
 &quot;Hey! you&#39;re finally here! So glad to see you again&quot;
-&quot;Oh its you! heh~&quot;</tw-passagedata><tw-passagedata pid="22" name="AlfDense" tags="" position="359.5,685" size="100,100">You: Uh okay bestie! Let&#39;s listen to more anime songs!
+&quot;Oh its you! heh~&quot;</tw-passagedata><tw-passagedata pid="22" name="AlfDense" tags="" position="359,685" size="100,100">You: Uh okay bestie! Let&#39;s listen to more anime songs!
 
 Alf looks a little disappointed but returns to his computer in silence.
 
-[[Continue-&gt;StaySilent]]</tw-passagedata><tw-passagedata pid="23" name="AlfKith" tags="" position="223.5,846" size="100,100">Your lips quiver, inches apart. You can feel alf&#39;s warm gentle breaths flowing across your face like a warm sunny day.
+[[Continue-&gt;StaySilent]]</tw-passagedata><tw-passagedata pid="23" name="AlfKith" tags="" position="223,846" size="100,100">Your lips quiver, inches apart. You can feel alf&#39;s warm gentle breaths flowing across your face like a warm sunny day.
 
 Alf suddently grabs your face with a vice grip and locks his lips over your lower face like a leech attaching itself to its victim. Before you can even comprehend what happens you feel your energy draining and your consciousness begins to fade.
 
@@ -144,7 +156,7 @@ Before you fade to the eternal darkness you hear alf say:
 
 Alf: Now you can be with me forever ~ &lt;3
 
-YANDERE END</tw-passagedata><tw-passagedata pid="24" name="AlfSilent" tags="" position="347.5,846" size="100,100">You stare at each other for what feels like days. You try again and again to muster the will to say the words that are desperately trying to break through your impenetrable barrier of low self-esteem. Alf patiently waits for you to say something.
+YANDERE END</tw-passagedata><tw-passagedata pid="24" name="AlfSilent" tags="" position="347,846" size="100,100">You stare at each other for what feels like days. You try again and again to muster the will to say the words that are desperately trying to break through your impenetrable barrier of low self-esteem. Alf patiently waits for you to say something.
 
 You finally manage to work up the courage to say something:
 
@@ -153,10 +165,10 @@ Alf: Hold on I gotta take a fat dump
 
 Alf leaves the VC. You wait for a while but he doesn&#39;t return.
 
-[[Leave VC-&gt;HatWear]]</tw-passagedata><tw-passagedata pid="25" name="Day2" tags="" position="789.5,1064" size="100,100">You wake up to 2032 unread messages in #dawn-winery. You go in and the chat is moving at ludicrous speed. People seem to be playing some game called Monster Seeking Monster in VC.
+[[Leave VC-&gt;HatWear]]</tw-passagedata><tw-passagedata pid="25" name="Day2" tags="" position="789,1064" size="100,100">You wake up to 2032 unread messages in #dawn-winery. You go in and the chat is moving at ludicrous speed. People seem to be playing some game called Monster Seeking Monster in VC.
 
 [[Backread the last night&#39;s shenanigans-&gt;Backread]]
-[[Join the game without backreading-&gt;JoinGame1]]</tw-passagedata><tw-passagedata pid="26" name="Backread" tags="" position="695.5,1221" size="100,100">You scroll down the older messages quickly, not really getting the full gist of everything but a few things jump out at you:
+[[Join the game without backreading-&gt;JoinGame1]]</tw-passagedata><tw-passagedata pid="26" name="Backread" tags="" position="695,1221" size="100,100">You scroll down the older messages quickly, not really getting the full gist of everything but a few things jump out at you:
 
 
 * People seem to have made up a new word &quot;mommycorning&quot;
@@ -167,7 +179,7 @@ Alf leaves the VC. You wait for a while but he doesn&#39;t return.
 Once you finish you see you&#39;ve missed the first round of Monster Seeking Monster but a new round is about to begin.
 
 [[Join the game-&gt;JoinGame2]]
-[[Don&#39;t join-&gt;NoJoinGame]]</tw-passagedata><tw-passagedata pid="27" name="JoinGame1" tags="" position="834.5,1217" size="100,100">You join the VC to the deafening sound of a screeching dolphin. Oh wait, that&#39;s actualy just Jamil.
+[[Don&#39;t join-&gt;NoJoinGame]]</tw-passagedata><tw-passagedata pid="27" name="JoinGame1" tags="" position="834,1217" size="100,100">You join the VC to the deafening sound of a screeching dolphin. Oh wait, that&#39;s actualy just Jamil.
 
 Jamil: *dolphin sounds*
 Eugeneration: Jamillfff
@@ -189,9 +201,10 @@ Jamil: Obviously I&#39;m a MILF.
 
 You are somewhat disturbed, but overall these people seem pretty cool. The game is about to begin.
 
-[[Start the Game-&gt;Game1Start]]</tw-passagedata><tw-passagedata pid="28" name="JoinGame2" tags="" position="905.5,1356" size="100,100">It seems like Jamil and Alf need to go and the degenerate atmosphere of the previous game is dispelled.
+[[Start the Game-&gt;Game1Start]]</tw-passagedata><tw-passagedata pid="28" name="JoinGame2" tags="" position="905,1356" size="100,100">It seems like Jamil and Alf need to go and the degenerate atmosphere of the previous game is dispelled.
 
-WIP</tw-passagedata><tw-passagedata pid="29" name="NoJoinGame" tags="" position="534.5,1352" size="100,100">You just chill in chat for a bit. The game is continuing and you see a great abundance of random phrases and laughing emotes being thrown around like tear gas canisters at a US protest.
+WIP</tw-passagedata><tw-passagedata pid="29" name="NoJoinGame" tags="" position="534,1352" size="100,100">[(set: $giveawaywon to false)]
+You just chill in chat for a bit. The game is continuing and you see a great abundance of random phrases and laughing emotes being thrown around like tear gas canisters at a US protest.
 
 While the game goes on you check out 50k-discussion.
 
@@ -200,9 +213,75 @@ It seems like a mod called Biki is doing some strange giveaways there.
 Giveaway bot: Basic Human Rights! React to enter the giveaway! Hosted by: Hibiki
 
 [[Enter the giveaway-&gt;GiveawayYes]]
-[[Don&#39;t enter the giveaway-&gt;GiveawayNo]]</tw-passagedata><tw-passagedata pid="30" name="GiveawayYes" tags="" position="459.5,1502" size="100,100">GiveawayBot: Congratulations [Your discord handle]! You won the **Basic Human Rights!**
+[[Don&#39;t enter the giveaway-&gt;GiveawayNo]]</tw-passagedata><tw-passagedata pid="30" name="GiveawayYes" tags="" position="458,1502" size="100,100">(set:$giveawaywin to (random:1,2))
+(set:$prettyrarewin to (random:1,100))
 
-WIP</tw-passagedata><tw-passagedata pid="31" name="GiveawayNo" tags="" position="609.5,1502" size="100,100">WIP</tw-passagedata><tw-passagedata pid="32" name="Game1Jam" tags="" position="1072.5,856" size="100,100">You send a message to Jam:
+(if:$prettyrarewin &gt;= 96)[GiveawayBot: Congratulations [Your discord handle]! You won **Date With Biki!**
+
+&#39;&#39;Biki&#39;&#39;: Uhhh... That&#39;s not supposed to happen, let me redo the giveaway
+
+Even though you have no idea whosuddenly have the urge to type something before you lose the attention of this mod
+
+&#39;&#39;You&#39;&#39;: Wait a moment Biki
+&#39;&#39;Biki&#39;&#39;: You have 10 seconds.
+
+You have to type something quickly
+
+[[Confess to biki-&gt;Biki confession secret path]]
+[[Forget it-&gt;Biki nvm secret path]]] 
+
+(if:$giveawaywin &gt;= 2 and $prettyrarewin &lt;= 95)
+[You watch as the timer for the giveaway goes down to 0.
+GiveawayBot: Congratulations [Your discord handle]! You won the **Basic Human Rights!**
+[(set: $giveawaywon to true)]
+&#39;&#39;McFish&#39;&#39;: AY
+&#39;&#39;McYuni&#39;&#39;: AY
+&#39;&#39;McPoro&#39;&#39;: GG
+&#39;&#39;McEugene&#39;&#39;: AY
+&#39;&#39;McTenshi&#39;&#39;: nice
+
+[[Brag about your rights-&gt;Lose rights lmao]]
+[[Be happy and continue on-&gt;Giveaway finish]]]
+
+(if:$giveawaywin &lt;= 1 and $prettyrarewin &lt;= 95)
+[You watch as the timer for the giveaway goes down to 0.
+GiveawayBot: Congratulations Biki! You won **Basic Human Rights!**
+
+&#39;&#39;McFish&#39;&#39;: RIGGED
+&#39;&#39;McYuni&#39;&#39;: RIGGED
+&#39;&#39;McPoro&#39;&#39;: RIGGED
+&#39;&#39;McEugene&#39;&#39;: RIGGED
+&#39;&#39;McTenshi&#39;&#39;: RIGGED
+
+How ~~lucky~~ that mod has, you think to yourself 
+
+[[Stay and read the chat-&gt;Giveaway finish]]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tw-passagedata><tw-passagedata pid="31" name="GiveawayNo" tags="" position="609,1502" size="100,100">You watch as the timer for the giveaway goes down to 0.
+GiveawayBot: Congratulations Biki! You won **Basic Human Rights!**
+
+&#39;&#39;McFish&#39;&#39;: RIGGED
+&#39;&#39;McYuni&#39;&#39;: RIGGED
+&#39;&#39;McPoro&#39;&#39;: RIGGED
+&#39;&#39;McEugene&#39;&#39;: RIGGED
+&#39;&#39;McTenshi&#39;&#39;: RIGGED
+
+How ~~lucky~~ that mod has, you think to yourself 
+
+[[Stay and read the chat-&gt;Giveaway finish]]</tw-passagedata><tw-passagedata pid="32" name="Game1Jam" tags="" position="1072,856" size="100,100">You send a message to Jam:
 
 You: Hey lets go out?
 Jam: I&#39;m gonna shove my [REDACTED].....
@@ -213,7 +292,7 @@ Jam sends several more messages, each reaching an even higher level of putridity
 
 You have been broken, a mere shell of a body now. You have lost the ability to process language or even maintain conscious thought. You fade into oblivion as your mind detaches from your body&#39;s orbit, thrust into the endless void of nothing.
 
-JAMEND</tw-passagedata><tw-passagedata pid="33" name="Game1Alf" tags="" position="1075.5,979" size="100,100">WIP</tw-passagedata><tw-passagedata pid="34" name="Game1Eug" tags="" position="1077.5,1100" size="100,100">WIP</tw-passagedata><tw-passagedata pid="35" name="Game1Yuno" tags="" position="1074.5,1225" size="100,100">WIP</tw-passagedata><tw-passagedata pid="36" name="Game1Start" tags="" position="952.5,1213" size="100,100">The narrator of the game explains the rules. Apparently you need to send messages each night to 
+JAMEND</tw-passagedata><tw-passagedata pid="33" name="Game1Alf" tags="" position="1075,979" size="100,100">WIP</tw-passagedata><tw-passagedata pid="34" name="Game1Eug" tags="" position="1077,1100" size="100,100">WIP</tw-passagedata><tw-passagedata pid="35" name="Game1Yuno" tags="" position="1074,1225" size="100,100">WIP</tw-passagedata><tw-passagedata pid="36" name="Game1Start" tags="" position="952,1213" size="100,100">The narrator of the game explains the rules. Apparently you need to send messages each night to 
 
 Jamil: Oh yeah by the way, do we get your consent to send you some bad things?
 You: Uh...yeah I guess so?
@@ -233,7 +312,61 @@ The game begins. You have to send a message to someone to try to get them to dat
 [[Message Alf-&gt;Game1Alf]]
 [[Message Kris (McTouchstone)-&gt;Game1Kris]]
 [[Message Euge-&gt;Game1Eug]]
-[[Message Yuno-&gt;Game1Yuno]]</tw-passagedata><tw-passagedata pid="37" name="Game1Kris" tags="" position="1072.5,1340" size="100,100">WIP</tw-passagedata></tw-storydata>
+[[Message Yuno-&gt;Game1Yuno]]</tw-passagedata><tw-passagedata pid="37" name="Game1Kris" tags="" position="1072,1340" size="100,100">WIP</tw-passagedata><tw-passagedata pid="38" name="Biki confession secret path" tags="" position="301,1439" size="100,100">You glance at the mod, their pink name contrasting against the gray of your night-mode themed discord. They had responded to your ping instantly. 
+
+Slowly, you began to type out your sentence.
+
+&quot;.. 5&quot;
+
+You panic, fingers frantically tapping the words as you form a sentence in your head. As Your vision zones in, you feel ur heart thumping against your chest. Now or never. Press send or live to regret it.
+
+&quot;Two...On-&quot;
+
+&quot;I LIKE YOU BIKI&quot;
+
+You finally pressed send.
+No response... Until finally you see &quot;Biki is typing&quot;
+
+You wait, tapping ur feet nervously as they format a response.
+
+After what felt like a century, you finally get pinged.
+
+&#39;&#39;Giveaway&#39;&#39; : [Mc&#39;s] human rights! React to enter the giveaway! Hosted by: Hibiki
+
+
+FAILED CONFESSION :WheezeTao:</tw-passagedata><tw-passagedata pid="39" name="Biki nvm secret path" tags="" position="295,1556" size="100,100">At the last minute, you decide to delete what you were typing and continue your life as though this never happened. You watch the time count down slowly.
+
+&#39;&#39;Biki&#39;&#39;:.. 5
+&quot;4&quot;
+&quot;3&quot;
+&quot;2&quot;
+&quot;1&quot;
+&quot;Times up, what a waste of 10 seconds of my life.&quot;
+
+You continue the 50k event talking with the other people in dawn winery, but whenever you try to get Biki&#39;s attention ever again, he just ignores you.
+
+IGNORED END</tw-passagedata><tw-passagedata pid="40" name="Giveaway finish" tags="" position="531,1645" size="100,100">After the chaos with the games and giveaways subsided, the chat slows down to a readable speed and you can start talking with people now. Great!
+
+
+[[Eugene Please Enter Some Routes Here Idk]]
+[[Eugene Please Enter Some Routes Here Idk]]
+[[Eugene Please Enter Some Routes Here Idk]]
+[[Just Chill-&gt;Day 3]]</tw-passagedata><tw-passagedata pid="41" name="Lose rights lmao" tags="" position="394.20001220703125,1674" size="100,100">[(set: $giveawaywon to false)]
+&#39;&#39;You&#39;&#39;: Hahahaha let&#39;s go I now have rights now unlike you guys
+
+You feel pumped up, but then notice that the mod Biki is typing again
+
+&#39;&#39;Biki&#39;&#39;:**UNACCEPTABLE**
+&#39;&#39;Biki&#39;&#39;: g!reroll
+&#39;&#39;Giveawaybot&#39;&#39;: The new winner is McEugene! Congratulations!
+
+[[Shout at Biki and call him an idiot-&gt;Biki gives away your soul]]
+[[Regret that you said that and stay quiet-&gt;Giveaway finish]] </tw-passagedata><tw-passagedata pid="42" name="Biki Success Path" tags="" position="1205,1029" size="100,100"></tw-passagedata><tw-passagedata pid="43" name="Day 3" tags="" position="1080.7999992370605,1499" size="100,100">It is the next day, and you wake up to even more messages. Dude this chat is so active, you think to yourself. Checking the current topic, and it seems as though people are talking about [tbd]
+
+
+
+
+WIP</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
