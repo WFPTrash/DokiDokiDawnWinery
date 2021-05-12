@@ -48,6 +48,7 @@ BAD END</tw-passagedata><tw-passagedata pid="5" name="HatWear" tags="" position=
 McEveryone: YAAAAAAAY ONE OF USSS
 [(set: $Day1JoinedVC to false)]
 [(set: $Day1Karaoke to false)]
+[(set:$encounteralf to false)]
 The jovialities eventually subside. ]Now you are left to decide how to continue to spend your time in the McWinery.
 
 [[Take off the hat-&gt;HatOffEnd]]
@@ -73,7 +74,7 @@ You: Yeah I&#39;m pretty new here
 McAlf: Welcome! I&#39;ve been in here for 72 hours
 You: Oh you&#39;re new too?
 McAlf: No I meant I&#39;ve been in this VC for 72 hours straight
-
+[(set:$encounteralf to true)]
 You stare at McAlf and his pfp stares back at you. The awkward silence grows to a crescendo - you feel have to say something:
 
 [[Stay silent-&gt;StaySilent]]
@@ -203,7 +204,10 @@ You are somewhat disturbed, but overall these people seem pretty cool. The game 
 
 [[Start the Game-&gt;Game1Start]]</tw-passagedata><tw-passagedata pid="28" name="JoinGame2" tags="" position="905,1356" size="100,100">It seems like Jamil and Alf need to go and the degenerate atmosphere of the previous game is dispelled.
 
-WIP</tw-passagedata><tw-passagedata pid="29" name="NoJoinGame" tags="" position="534,1352" size="100,100">[(set: $giveawaywon to false)]
+You still play the game, though you believe that it would&#39;ve been more fun had you joined before backreading.
+
+[[Check up on chat-&gt;NoJoinGame]]
+[[Go to sleep early to wake up early-&gt;Day3Early]]</tw-passagedata><tw-passagedata pid="29" name="NoJoinGame" tags="" position="534,1352" size="100,100">[(set: $giveawaywon to false)]
 You just chill in chat for a bit. The game is continuing and you see a great abundance of random phrases and laughing emotes being thrown around like tear gas canisters at a US protest.
 
 While the game goes on you check out 50k-discussion.
@@ -220,7 +224,7 @@ Giveaway bot: Basic Human Rights! React to enter the giveaway! Hosted by: Hibiki
 
 &#39;&#39;Biki&#39;&#39;: Uhhh... That&#39;s not supposed to happen, let me redo the giveaway
 
-Even though you have no idea whosuddenly have the urge to type something before you lose the attention of this mod
+You suddenly have the urge to type something before you lose the attention of this mod
 
 &#39;&#39;You&#39;&#39;: Wait a moment Biki
 &#39;&#39;Biki&#39;&#39;: You have 10 seconds.
@@ -292,7 +296,11 @@ Jam sends several more messages, each reaching an even higher level of putridity
 
 You have been broken, a mere shell of a body now. You have lost the ability to process language or even maintain conscious thought. You fade into oblivion as your mind detaches from your body&#39;s orbit, thrust into the endless void of nothing.
 
-JAMEND</tw-passagedata><tw-passagedata pid="33" name="Game1Alf" tags="" position="1075,979" size="100,100">WIP</tw-passagedata><tw-passagedata pid="34" name="Game1Eug" tags="" position="1077,1100" size="100,100">WIP</tw-passagedata><tw-passagedata pid="35" name="Game1Yuno" tags="" position="1074,1225" size="100,100">WIP</tw-passagedata><tw-passagedata pid="36" name="Game1Start" tags="" position="952,1213" size="100,100">The narrator of the game explains the rules. Apparently you need to send messages each night to 
+JAMEND</tw-passagedata><tw-passagedata pid="33" name="Game1Alf" tags="" position="1075,979" size="100,100">(if: $encounteralf is true)
+[&quot;Oh its you! heh~&quot;]
+
+
+WIP</tw-passagedata><tw-passagedata pid="34" name="Game1Eug" tags="" position="1077,1100" size="100,100">WIP</tw-passagedata><tw-passagedata pid="35" name="Game1Yuno" tags="" position="1074,1225" size="100,100">WIP</tw-passagedata><tw-passagedata pid="36" name="Game1Start" tags="" position="952,1213" size="100,100">The narrator of the game explains the rules. Apparently you need to send messages each night to 
 
 Jamil: Oh yeah by the way, do we get your consent to send you some bad things?
 You: Uh...yeah I guess so?
@@ -351,7 +359,7 @@ IGNORED END</tw-passagedata><tw-passagedata pid="40" name="Giveaway finish" tags
 [[Eugene Please Enter Some Routes Here Idk]]
 [[Eugene Please Enter Some Routes Here Idk]]
 [[Eugene Please Enter Some Routes Here Idk]]
-[[Just Chill-&gt;Day 3]]</tw-passagedata><tw-passagedata pid="41" name="Lose rights lmao" tags="" position="394.20001220703125,1674" size="100,100">[(set: $giveawaywon to false)]
+[[Just Chill Until The Next Day-&gt;Day 3]]</tw-passagedata><tw-passagedata pid="41" name="Lose rights lmao" tags="" position="394.20001220703125,1674" size="100,100">[(set: $giveawaywon to false)]
 &#39;&#39;You&#39;&#39;: Hahahaha let&#39;s go I now have rights now unlike you guys
 
 You feel pumped up, but then notice that the mod Biki is typing again
@@ -361,12 +369,20 @@ You feel pumped up, but then notice that the mod Biki is typing again
 &#39;&#39;Giveawaybot&#39;&#39;: The new winner is McEugene! Congratulations!
 
 [[Shout at Biki and call him an idiot-&gt;Biki gives away your soul]]
-[[Regret that you said that and stay quiet-&gt;Giveaway finish]] </tw-passagedata><tw-passagedata pid="42" name="Biki Success Path" tags="" position="1205,1029" size="100,100"></tw-passagedata><tw-passagedata pid="43" name="Day 3" tags="" position="1080.7999992370605,1499" size="100,100">It is the next day, and you wake up to even more messages. Dude this chat is so active, you think to yourself. Checking the current topic, and it seems as though people are talking about [tbd]
+[[Regret that you said that and stay quiet-&gt;Giveaway finish]] </tw-passagedata><tw-passagedata pid="42" name="Biki Success Path" tags="" position="1205,1029" size="100,100"></tw-passagedata><tw-passagedata pid="43" name="Day 3" tags="" position="945.7999992370605,1581" size="100,100">It is late into the next day, and you wake up to even more messages. Dude this chat is so active, you think to yourself. Checking the current topic, and it seems as though people are talking about [tbd]
 
 
 
 
-WIP</tw-passagedata></tw-storydata>
+WIP</tw-passagedata><tw-passagedata pid="44" name="Day3Early" tags="" position="1120,1506" size="100,100">You wake up at 3am (Not that you do that already) and see the regulars online.
+
+&#39;&#39;You&#39;&#39;: Morning everyone
+&#39;&#39;McAlf&#39;&#39;: Ay hello
+&#39;&#39;McYuni&#39;&#39;: Hii :HuLick:
+&#39;&#39;McTaku&#39;&#39;: Good Morning
+
+WIP
+*please eugene do something i have no clue*</tw-passagedata><tw-passagedata pid="45" name="Sephi Gives Away Nya??" tags="" position="1199,816" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
